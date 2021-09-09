@@ -1,0 +1,25 @@
+main{
+    justify-content: center;
+    display: flex;
+
+    .container-cards{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        justify-content: center;
+    }
+
+    .card{
+        width: calc(100% / 4 - 80px);
+
+        .img-container{
+            width: 200px;
+            
+            img{
+                width: 100%;
+             }
+        }
+       
+    }
+    
+}

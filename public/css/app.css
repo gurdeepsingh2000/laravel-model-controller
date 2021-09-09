@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   justify-content: space-around;
+  background-color: #121212;
 }
 
 .navbar .logo-container {
@@ -24,7 +25,41 @@
   height: 20px;
 }
 
+.navbar i {
+  color: white;
+  font-size: 25px;
+}
+
+main {
+  justify-content: center;
+  display: flex;
+}
+
+main .container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: center;
+}
+
+main .card {
+  width: calc(100% / 4 - 80px);
+}
+
+main .card .img-container {
+  width: 200px;
+}
+
+main .card .img-container img {
+  width: 100%;
+}
+
 * {
   font-family: "Roboto";
+}
+
+body {
+  background-color: #000000;
+  color: white;
 }
 
